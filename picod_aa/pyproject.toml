@@ -3,10 +3,10 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "picod-aa"
+name = "picod_aa"
 version = "0.0.1-Alpha"
 dependencies = [
-  "pyserial==3.*",
+  "pyserial"
 ]
 requires-python  = ">= 3.11"
 license = {file = "LICENSE"}

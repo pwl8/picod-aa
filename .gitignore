@@ -1,5 +1,5 @@
-picod-aa/__pycache__/
-picod-aa/build/
-picod-aa/dist/
-picod-aa/picod.egg-info/
+*.__pycache__/
+*.build/
+*.dist/
+*.egg-info/
 *.pyc
