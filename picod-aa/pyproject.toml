@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "picod-aa"
+version = "0.0.1-Alpha"
+dependencies = [
+  "pyserial==3.*",
+]
+requires-python  = ">= 3.11"
+license = {file = "LICENSE"}
+
+authors = [
+  {name = "joan", email = "joan@abyz.me.uk"},
+  {name = "Paweł Szolczewski", email = "pawelsz818@gmail.com"},
+]
+maintainers = [
+  {name = "Paweł Szolczewski", email = "pawelsz818@gmail.com"},
+]
